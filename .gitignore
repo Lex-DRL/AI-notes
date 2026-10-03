@@ -1,0 +1,118 @@
+# Organized+extended by Lex-DRL: https://github.com/Lex-DRL/git-template-gamedev
+
+# Common
+# ----------------------------
+
+# Temp files/folders:
+*.tmp
+*.temp
+tmp*/
+temp*/
+
+# Programming - general
+*.log
+
+# OS-generated - Windows
+# ----------------------------
+
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# OS-generated - Apple
+# ----------------------------
+
+.DS_Store*
+.AppleDouble
+.LSOverride
+
+# ... and thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# =========================================================================== #
+# 	IDEs
+# =========================================================================== #
+
+# JetBrains IDEs: PyCharm / Rider
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.vscode/
+.claude/
+.history/
+*.code-workspace
+
+
+# =========================================================================== #
+# 	Python-related
+# =========================================================================== #
+# src: https://github.com/github/gitignore/blob/main/Python.gitignore
+
+# Environments
+.env*/
+.venv*/
+env*/
+venv*/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+# The next one is NOT a typo - whether a bug in coverage lib or not, but it
+# can actually create a file with such "extension" (with comma):
+# https://github.com/nedbat/coveragepy/blob/8827634adcfe4a4baf71cf0b3e1cd967cf9b14a2/coverage/annotate.py#L84
+*,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytype static type analyzer
+.pytype/
+
+
+# =========================================================================== #
+# 	Repo-specific
+# =========================================================================== #
+# add here
