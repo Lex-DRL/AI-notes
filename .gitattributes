@@ -1,0 +1,2 @@
+# Auto-detect text/binary by default + force UNIX line endings on clone/pull for all text files:
+* text=auto eol=lf
